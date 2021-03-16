@@ -11,6 +11,9 @@ public class ConpanyMangement {
         //add naw emp loyee
         //addNewEmp(dao);
 
+        //find employee my id
+        findEmpBrID(dao);
+
 
     }
 }
