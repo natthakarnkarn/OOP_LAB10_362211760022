@@ -8,7 +8,7 @@ public class ConpanyMangement {
         //display all employee data
         displayAllEmp(dao);
 
-        //add naw employee
+        //add naw emp loyee
         //addNewEmp(dao);
 
     }
