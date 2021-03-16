@@ -1,0 +1,21 @@
+Index: src/Employee.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/Employee.java	(date 1615862538103)
++++ src/Employee.java	(date 1615862538103)
+@@ -0,0 +1,3 @@
++public class Employee {
++    private
++}
+Index: src/EnployeeDAD.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/EnployeeDAD.java	(date 1615862538213)
++++ src/EnployeeDAD.java	(date 1615862538213)
+@@ -0,0 +1,2 @@
++public interface EnployeeDAD {
++}
