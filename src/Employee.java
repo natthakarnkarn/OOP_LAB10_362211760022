@@ -62,7 +62,6 @@ public class Employee {
         this.salary = salary;
     }
 
-
     // toString
 
     @Override

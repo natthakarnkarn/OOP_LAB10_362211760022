@@ -20,8 +20,15 @@ public class CompanyManagement {
 
     } // class
 
+    public static void updateEmp(EmployeeDAOImpl dao) {
+        System.out.print();
+        String id = sc.nexLine()
+
+    }
+
+
     private static void findEmpByID(EmployeeDAOImpl dao) {
-        Employee emp = dao.findById("EMP005");
+        Employee emp = dao.findById("EMP022");
         if (emp != null){
             System.out.println(emp.toString());
         }
@@ -30,10 +37,10 @@ public class CompanyManagement {
     }
 
     private static void addNewEmp(EmployeeDAOImpl dao) {
-        Employee myEmp = new Employee("EMP004",
-                "Chanchai Chairak",
+        Employee myEmp = new Employee("EMP022",
+                "Nattha karn",
                 "Lecturer",
-                "chan.12@gmail.com",
+                "nattha@gmail.com",
                 25000);
         dao.addEmp(myEmp);
     }
