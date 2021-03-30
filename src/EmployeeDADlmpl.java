@@ -2,7 +2,7 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class EmployeeDAOImpl implements EmployeeDAO {
+class EmployeeDAOImpl implements EmployeeDAO {
     //set connection
     public static String driverName = "org.sqlite.JDBC";
     public static String url = "jdbc:sqlite:MIT_Company.sqlite";
